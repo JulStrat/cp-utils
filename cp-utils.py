@@ -7,3 +7,7 @@ def bin_search_left(f, v, lo, hi):
         else:
             hi = mid
     return lo
+
+def matr_mul(ma, mb, m):
+    return [[sum(map(mul, row, col))%m for col in zip(*mb)] for row in ma]
+
