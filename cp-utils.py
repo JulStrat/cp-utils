@@ -1,3 +1,5 @@
+from operator import mul
+
 def bin_search_left(f, v, lo, hi):
  
     while lo < hi:
